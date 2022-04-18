@@ -1,2 +1,2 @@
 # todo-project
-![My Image](./wireframe.jpg)
+[My Image](./assests/wireframe.jpg)
