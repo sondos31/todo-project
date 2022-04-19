@@ -12,6 +12,7 @@ if
 alert('Welcome MR '+ name + ' Here');
 else if (gender=='female' || gender=='Female')
 alert('Welcome MRS ' + name + ' Here');
-}
-else
+ else
  alert('Welcome ' + name +  ' Here' );
+}
+
