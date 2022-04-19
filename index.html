@@ -1,54 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-    <style>
-        table, th, td {
-          border:1px solid black;
-        }
-        </style>
-<head>
-    
-    <h1>TO DO LIST!</h1>
-<nav>
-     <a href="index.html"> Home</a> 
-     <a href="about.html"> about</a> 
+  <style>
+    table, th, td {
+      border:1px solid rgb(1, 2, 3);
+      
+      
+    }
+    </style>
 
-    </nav>
+  <head>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="todo.css">
+  </head>
+  
+  
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To do list </title>
 </head>
 <body>
-<main>
+  <i class="fa fa-tasks"></i>
+  <ul>
+    <div class="topnav">
+    <a class="button" href="index.html">Home</a>
+    <a class="button2" href="about.html">About us </a>
+  </ul>
+</div>
   
-    <h2>TO DO LIST</h2>
-    <table>
+<main>
+ 
+        
+    <h2 class="header"> TO DO LIST</h2>
+
+    <div class="tab">
+      
+    <table >
         <tr>
           <th>tasks</th>
           <th>status</th>
         </tr>
         <tr>
           <td>prepering for iftar</td>
-          <td>done</td>
+          <td > <input type="checkbox">done</td>
         </tr>
         <tr>
           <td>solve task 2</td>
-          <td>almost done </td>
+          <td> <input type="checkbox">almost done </td>
         </tr>
         <tr>
          <td>go for a walk</td>
-          <td>done</td>
+          <td> <input type="checkbox">done</td>
 </tr>
+<tr>
           <td>take a nap</td>
-          <td>done</td>
+          <td><input type="checkbox">done</td>
+        </tr>
       </table>
+    </div>
     </main>
-<footer>
-    <p>
+<footer class="bottomnav">
+  <script src="./app.js"></script>
+    <p class="text">
        &copy; copyright 2022
         </p>
     </footer>
-    
-    
 </body>
 </html>
