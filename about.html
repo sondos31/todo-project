@@ -1,46 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <h1>MY INFORMATION!</h1>
-<nav>
-
-
-    </nav>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="todo.css">
+      </head>
+   
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MY INFORMATION </title>
 </head>
 <body>
+  <ul class="w3-ul">
+  <i class="fa fa-tasks"></i>
+  </ul>
     <header>
-        <nav>
-            <a href="index.html"> Home</a> 
-            <a href="about.html"> about</a> 
-       
-           </nav>
+        <ul>
+            <div class="topnav">
+            <a class="button" href="index.html">Home</a>
+        
+            <a class="button2" href="about.html">About us</a>
+          </ul>
+        </div>
     </header>
     <main>
-        <P></P> Hi my name is Sondos ,im 23 years old ,i like fashion ,styling and so many things. </P>
-        <img src="./assests/268167435_4617122708405299_2372679451732546730_n.jpg" alt="my pic" width="150" height="150">
+        <h1 id="name">sondos abuqayyas </h1>
         
+        <div>
+     <img  id="photo" src="./assests/268167435_4617122708405299_2372679451732546730_n.jpg" alt="my pic" >
+        </div>
+        <div class="center">
+            <p id="t2">OVER VIEW ABOUT YOURSELF</p>
+          </div>
+        <div class="form">
         <form>
-            <div> enter your information</div>
-
+           <div>
             <label for="fname">First name:</label><br>
-            <input type="text" id="fname" name="fname" value="sondos"><br>
+            <input type="text"  name="fname" value="sondos"><br>
+        </div>
             <label for="Email">Email:</label><br>
-            <input type="text" id="email" name="email" value="sondosmajid31@gmail.com"><br>
-            <button type="button">Submit</button>
-
+            <input type="text" name="email" value="sondosmajid31@gmail.com"><br>
+            <label for="fname">phone:</label><br>
+            <input type="text"  name="phone" value="0799242333"><br>
+            <label for="fname">massege:</label><br>
+            <input type="text"  name="fname" value=""><br>
+            <button id="button3"type="button">Submit</button>
+        </div>
             
           </form>
           
           
         </main>
-        <footer>
-            <p>
+        <footer class="bottomnav">
+            <p class="text">
                &copy; copyright 2022
                 </p>
             </footer>
+            
             </body>
             </html>
