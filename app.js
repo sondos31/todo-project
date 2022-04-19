@@ -5,14 +5,13 @@ var age=prompt('Enter your age');
 if (age <=0){
  alert('wrong age , plz reEnter the age') ;
 }
-var result =confirm('Do you want to skip the welcoming message?');
-if(result=='no'|| result=='NO'){
+if (!(confirm('Do you want to skip the welcoming message?')))
+{
 if
 (gender=='male ' || gender==' Male' )
-    alert('Welcome MR '+ name + ' Here');
-else if (gender=='female' || gender=='Female' )
+alert('Welcome MR '+ name + ' Here');
+else if (gender=='female' || gender=='Female')
 alert('Welcome MRS ' + name + ' Here');
-
 }
 else
  alert('Welcome ' + name +  ' Here' );
