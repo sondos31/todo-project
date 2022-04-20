@@ -18,7 +18,7 @@ else
  alert('Welcome ' + name +  ' Here' );
 }
 
-}
+
  else
  alert('Welcome ' + name +  ' Here' );
 
